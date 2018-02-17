@@ -1,0 +1,145 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {   /* stylelint-disable-line */
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {   /* stylelint-disable-line */
+  font-family: Georgia, serif;
+  font-size: 16px;
+  color: #333;
+  background-color: #eee;
+}
+
+.kassi {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 12px;
+  border: 1px solid #ccc;
+}
+
+.texti {
+  display: inline-block;
+  padding: 12px 12px 12px 0;
+}
+
+.container-login {
+  padding: 20px;
+  padding-bottom: 12em;
+  margin-top: 20%;
+  margin-bottom: 1em;
+  border-bottom: 1px solid #000;
+}
+
+.container-admin {
+  padding: 20px;
+  padding-bottom: 12em;
+  margin-bottom: 1em;
+  border-bottom: 1px solid #000;
+}
+
+.container-back {
+  padding: 2em;
+}
+
+.container-thanks {
+  width: 100%;
+  padding-bottom: 14em;
+  margin-top: 30%;
+  margin-bottom: 1em;
+  text-align: center;
+  border-bottom: 1px solid #000;
+}
+
+.takki {
+  float: left;
+  padding: 12px 20px;
+  margin-top: 1em;
+  cursor: pointer;
+  border: 1px solid #000;
+  border-radius: 4px;
+}
+
+.kassi-rangt {
+  float: left;
+  padding: 12px 20px;
+  margin-top: 1em;
+  cursor: pointer;
+  background-color: #ff4d4d;
+  border: 1px solid #000;
+  border-radius: 4px;
+}
+
+.takki:hover {
+  background-color: #808080;
+}
+
+.info {
+  padding: 20px;
+  padding-bottom: 18em;
+  margin-top: 10%;
+  margin-bottom: 1em;
+  border-bottom: 1px solid #000;
+}
+
+.col-25 {
+  float: left;
+  width: 15%;
+  margin-top: 6px;
+  margin-left: 35%;
+}
+
+.villur {
+  margin-top: 1em;
+  margin-bottom: 2em;
+  margin-left: 40%;
+}
+
+.tablediv {
+  min-width: 30%;
+  margin-top: 10%;
+  margin-right: 35%;
+  margin-left: 35%;
+}
+
+.item {
+  padding: 10px;
+  margin: 0;
+  border: solid;
+  border-width: thin;
+}
+
+.col-75 {
+  float: left;
+  width: 20%;
+  margin-top: 6px;
+  margin-right: 30%;
+  border: 1px solid #000;
+}
+
+.control {
+  padding: 0 1em;
+}
+
+.row::after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+@media (max-width: 600px) {
+  .col-25,
+  .col-75 {
+    width: 100%;
+    margin-top: 0;
+  }
+}

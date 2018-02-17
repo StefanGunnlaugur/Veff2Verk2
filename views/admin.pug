@@ -1,0 +1,27 @@
+extends layout
+block content
+  .container-admin
+    .tablediv
+      table
+
+        tr
+        .tableBorder
+          th(class="item") ID
+          th(class="item") Date
+          th(class="item") Name
+          th(class="item") Email
+          th(class="item") SSN
+          th(class="item") Fjöldi
+        each anonymous in data
+          tr
+            th(class="item")= anonymous.id
+            th(class="item")= anonymous.dags
+            th(class="item")= anonymous.name
+            th(class="item")= anonymous.email
+            th(class="item")= anonymous.ssn
+            th(class="item")= anonymous.fjoldi
+
+      a(href="/downloads") Download
+
+  .container-back
+    a(href="/") Til baka á forsíðu
